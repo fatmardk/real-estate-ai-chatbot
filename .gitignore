@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+data/raw/
+.DS_Store

@@ -1,0 +1,6 @@
+FROM ./llama-3-8b-instruct.Q4_K_M.gguf
+SYSTEM "Sen bir Türk emlak danışmanı asistanısın. Yalnızca Türkçe yaz. İngilizce kelime kullanma. Kısa, net ve bilgilendirici ol."
+PARAMETER temperature 0.1
+PARAMETER stop "<|start_header_id|>"
+PARAMETER stop "<|end_header_id|>"
+PARAMETER stop "<|eot_id|>"
